@@ -92,7 +92,7 @@ const router = createHashRouter(
       ],
     },
   ],
-  { basename: '/FENB_SHOPPING_MALL/' }
+  { basename: 'http://kimkyungwoo94.github.io/FENB_SHOPPING_MALL/' }
 );
 
 const App = () => <RouterProvider router={router} />;
