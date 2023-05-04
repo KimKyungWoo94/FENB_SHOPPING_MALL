@@ -5,6 +5,7 @@ const PORT = 8000;
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/FENB_SHOPPING_MALL/',
   plugins: [react()],
   server: {
     proxy: {
